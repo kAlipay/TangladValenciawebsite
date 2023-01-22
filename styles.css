@@ -1,0 +1,149 @@
+
+body{
+    margin:0px;
+    font-family: Tahoma;
+}
+
+h2.header{
+    color:white;
+  }
+    p.header{
+    color:white;
+  }
+  h3.header{
+    color:white;
+  }
+
+  #socialmedia
+  {
+height:20px;
+  }
+
+  ul.no-bullets {
+list-style-type: none; /* Remove bullets */
+padding: 0; /* Remove padding */
+margin: 0; /* Remove margins */
+
+}
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+background-color: green;
+}
+
+a:active {
+text-decoration: underline;
+}
+/*a:hover {
+    color: orange;
+  }
+  
+  /* selected link 
+  a:active {
+    color: yellow;
+  }*/
+  li.ahrefcolor{
+    color:black;
+  }
+ h6.cardheader
+ {
+  font-family:Arial Black (sans-serif);
+ }
+ h2.hcolor{
+  color:rgb(233, 11, 11);
+ }
+ div
+ {
+  position: relative;
+}
+h3.styles{
+  font-family:Arial black;
+  font-size:25;
+}
+p.paragrapstyle{
+  font-family:Arial;
+  font-size: 17px;
+}
+div.coloredred
+{
+ background-color:  rgb(196, 5, 5);
+ width:1500px;
+ height:20px;
+}
+p.barangays{
+  font-family:Arial white;
+  font-size: 17px;
+  
+}
+h3.stylescatering{
+  font-family:Arial black;
+  font-size:30;
+}
+p.paragraphcatering{
+  font-family:Arial;
+  font-size: 17px;
+}
+table.super99list{
+border: 3px solid rgb(209, 192, 192);
+border-collapse: collapse ;
+}
+td.super99list{
+  border: 3px solid rgb(209, 192, 192);
+  border-collapse: collapse;
+  font-family:'Trebuchet MS';
+  padding:10px;
+  font-size:25px;
+  }
+  tr:hover
+  {
+    color:white;
+    background-color: rgb(7, 105, 7);
+  }
+
+
+  
+a.trlinks:link
+{
+  color:black;
+}
+a.trlinks:visited
+{
+  color:black;
+  
+}
+a.trlinks:hover {
+color: white;
+text-decoration-line: none;
+  }
+    tr.nahover
+  {
+    color:white;
+    background-color: rgb(7, 105, 7);
+  }
+th.thheaders
+{
+  padding-left: 40px;padding-right: 40px;  padding-top:5px;padding-bottom: 5px;
+  size: 100px;
+}
+th.thheaders:hover
+  {
+    color:white;
+    background-color: rgb(7, 105, 7);
+  }
+  tr.trheaders:hover
+  {
+    color:white;
+    background-color: black;
+  }
+
+a.istyle
+{
+color:white;
+}

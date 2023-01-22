@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanglad Valenia</title>
+    <link rel="icon" type="image/x-icon" href="img/tangladvalencialogo.jpg">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+ 
+  <link rel="stylesheet" href="styles.css">
+<style>
+   
+
+.carousel .carousel-indicators button {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+      }
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg" >
+          <div class="col-lg-1"> </div><img src="img/tangladvalencialogo.jpg" alt="tanglad" height="130px" width="140px">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-3">
+        <b>  <h3 >Find a Tanglad’s near you</h3></b>
+          </div>
+          
+                <select class="form-select" id="barangay" name="barangay" >
+            <option>Bagontaas</option>
+            <option>Banlag</option>
+            <option>Barobo</option>
+            <option>Batangan</option>
+            <option>Catumbalon</option>
+            <option>Colonia</option>
+            <option>Concepcion</option>
+            <option>Dagat-Kidavao</option>
+            <option>Guinoyuran</option>
+            <option>Kahapunan</option>
+            <option>Laligan</option>
+            <option>Lilingayon</option>
+            <option>Lourdes</option>
+            <option>Lumbayao</option>
+            <option>Lumbo</option>
+            <option>Lurogan</option>
+            <option>Maapag</option>
+            <option>Mabuhay</option>
+            <option>Mailag</option>
+            <option>Mt. Nebo</option>
+            <option>Nabago</option>
+            <option>Pinatilan</option>
+            <option>Poblacion</option>
+            <option>San Carlos</option>
+            <option>San Isidro</option>
+            <option>Sinabuagan</option>
+            <option>Sinayawan</option>
+            <option>Sugod</option>
+            <option>Tugaya</option>
+            <option>Vintar</option>
+          </select>
+          <button type="submit" class="btn btn-danger" style="size:20px;">Search </button>
+          <div class="col-lg-3"></div>
+        </div>
+         </nav>
+       <!-- <nav class="navbar navbar-expand-lg" style="background-color: black; margin:0px;">
+          <div class="col-lg-1"></div><table style="color:white;">
+            <tr class="trheaders">
+            <a href="home.html"> Home</a>
+       
+              <th class="thheaders">GALLERY</th>
+              <th class="thheaders">CATERING</th>
+              <th class="thheaders">CONTACT US</th>
+              </tr>
+          </table>
+
+          </nav>--> 
+         <div>
+          <nav class="navbar navbar-expand-lg bg-dark ">
+  <div class="container-fluid" >
+   <!-- <a class="navbar-brand" href="#">Navbar</a>-->
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon text-white"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 pe-5 ps-5">
+        <li class="nav-item " >
+     <b>     <a class="nav-link active text-white pe-4 ps-4" href="home.html">HOME</a></b>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white pe-4 ps-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+        <b> MENU  </b> 
+          </a>  
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="menu eat all you can.html"> <b> EAT ALL YOU CAN  </b> </a></li>
+            <li><a class="dropdown-item" href="menu meals.html"> <b> SUPER 99</b> </a></li>
+           <!-- <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+          </ul>
+        </li>
+        <li class="nav-item">
+          <b>  <a class="nav-link text-white pe-4 ps-4" href="gallery.html">GALLERY</a> </b>
+        </li>
+        <li class="nav-item">
+          <b>   <a class="nav-link text-white pe-4 ps-4" href="catering.html">CATERING</a>  </b> 
+        </li>
+        <li class="nav-item">
+          <b>    <a class="nav-link text-white pe-4 ps-4" href="contact.html">CONTACT US</a>  </b> 
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+    
+          <div class="row"><div class="col-lg-1"></div>
+          <div class="col-lg-2"> <p>Menu/Eat all you can</p></div> 
+            </div>
+            <div class="row"><div class="col-lg-2"></div>
+            <div class="col-lg-8">
+          <b> <h3 class="display-3 text-center">EAT ALL YOU CAN<h3></b>
+              </div>
+          </div>
+            <div class="row"><div class="col-lg-1"></div>
+              <div class="col-lg-4 ms-5">
+            <div class="card text-center">
+              <img src="img/Eat all you can/cordonbleu.jpg" class="card-img-top" alt="cordonbleu" height="300px" >
+              <div>
+                <b> <h6 class="display-6" >Cordon Bleu</h6></b>
+                <p>A dish composed of chicken breasts, ham, and Swiss cheese. The ham and Swiss cheese are arranged on top of the chicken breast and rolled together then dredged in bread crumbs. </p>
+                <b> <h2 class="hcolor"> ₱900.00</h2><p>Per tray</p></b>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-4" class="cardheader">
+            <div class="card text-center">
+              <img src="img/Eat all you can/porklechon.jpg" class="card-img-top" alt="porklechon" height="300px" >
+              <div>
+                <b> <h6 class="display-6" >Lechon Liempo</h6></b>
+                <p>A good and simpler way to make Filipino Style Roast Pork. It is deliciously crunchy. </p>
+                <b> <h2 class="hcolor"> ₱1500.00</h2><p>Per tray</p></b>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="row"><div class="col-lg-1"></div>
+              <div class="col-lg-4 ms-5 mt-5">
+            <div class="card text-center">
+              <img src="img/Eat all you can/pancitbihon.jpg" class="card-img-top" alt="pancitsotanghon" height="300px" >
+              <div>
+                <b> <h6 class="display-6" >Pancit Sotanghon</h6></b>
+                <p> A noodle dish made from sotanghon. It is also known as rice noodles. The term “guisado” was derived from the Filipino word “gisa” which means to sauté. </p>
+                <b> <h2 class="hcolor"> ₱750.00</h2><p>Per tray</p></b>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-4 mt-5" class="cardheader">
+            <div class="card text-center">
+              <img src="img/Eat all you can/fishfillet.jpg" class="card-img-top" alt="fishfillet" height="300px" >
+              <div>
+                <b> <h6 class="display-6" >Fish Fillet</h6></b>
+                <p> A delicious crispy flavorful tilapia fillet dish. The fish is seasoned and dredged in a beading of Panko breadcrumbs, then deep fried until crispy. Crispy Tilapia Sticks makes a delicious appetizer and I think that it goes well with fresh homemade ranch dressing. </p>
+                <b> <h2 class="hcolor"> ₱1050.00</h2><p>Per tray</p></b>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="row"><div class="col-lg-1"></div>
+              <div class="col-lg-4 ms-5 mt-5">
+            <div class="card text-center">
+              <img src="img/Eat all you can/friedchicken.jpg" class="card-img-top" alt="friedchicken" height="300px" >
+              <div>
+                <b> <h6 class="display-6" >Fried Chicken</h6></b>
+                <p> Is seen as a quintessential part of American cuisine. In the American South, especially, crispy fried chicken is a staple in many homes and restaurants.</p>
+                <b> <h2 class="hcolor"> ₱1200.00</h2><p>Per tray</p></b>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-4 mt-5" class="cardheader">
+            <div class="card text-center">
+              <img src="img/Eat all you can/chickenlumpia.jpg" class="card-img-top" alt="chickenlumpia" height="300px" >
+              <div>
+                <b> <h6 class="display-6" >Chicken Lumpia</h6></b>
+                <p> This dish can be served as an appetizer or a main dish.  </p>
+                <b> <h2 class="hcolor"> ₱1100.00</h2><p>Per tray</p></b>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="row"><div class="col-lg-1"></div>
+              <div class="col-lg-4 ms-5 mt-5">
+            <div class="card text-center">
+              <img src="img/Eat all you can/freshmixsalad.jpg" class="card-img-top" alt="freshmixsalad" height="300px" >
+              <div>
+                <b> <h6 class="display-6" >Fresh Mix Salad</h6></b>
+                <p> This salad uses romaine lettuce tossed topped with garlic croutons, parmesan cheese, and a mixture of olive oil, raw egg yolks, and garlic.  </p>
+                <b> <h2 class="hcolor"> ₱600.00</h2><p>Per tray</p></b>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-4 mt-5" class="cardheader">
+            <div class="card text-center">
+              <img src="img/Eat all you can/kinilaw.jpg" class="card-img-top" alt="kinilaw" height="300px" >
+              <div>
+                <b> <h6 class="display-6" >Kinilaw</h6></b>
+                <p> Is a Filipino dish wherein cubed fresh tuna is mixed with vinegar, lemon, or calamansi and chilled. </p>
+                <b> <h2 class="hcolor"> ₱1200.00</h2><p>Per tray</p></b>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="row"><div class="col-lg-1"></div>
+          <div class="col-lg-4 ms-5 mt-5">
+        <div class="card text-center">
+          <img src="img/Eat all you can/chickenbarbecue.jpg" class="card-img-top" alt="chickenbarbecue" height="300px" >
+          <div>
+            <b> <h6 class="display-6" >Chicken Barbecue</h6></b>
+            <p> Is marinated grilled or bbq chicken cooked the Filipino way.  </p>
+            <b> <h2 class="hcolor"> ₱1200.00</h2><p>Per tray</p></b>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-4 mt-5" class="cardheader">
+        <div class="card text-center">
+          <img src="img/Eat all you can/sphagetti.jpg" class="card-img-top" alt="sphagetti" height="300px" >
+          <div>
+            <b> <h6 class="display-6" >Spagghetti</h6></b>
+            <p> This version of spaghetti requires the use of sugar, hotdogs, and banana ketchup.</p>
+            <b> <h2 class="hcolor"> ₱1100.00</h2><p>Per tray</p></b>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="row"><div class="col-lg-1"></div>
+      <div class="col-lg-4 ms-5 mt-5">
+    <div class="card text-center">
+      <img src="img/Eat all you can/mcandchees.jpg" class="card-img-top" alt="mcandchees" height="300px" >
+      <div>
+        <b> <h6 class="display-6" >Mc and Cheese</h6></b>
+        <p> is a good dish to prepare this holiday season. It is delicious, cheesy, and a sure crowd pleaser. Yummy!</p>
+        <b> <h2 class="hcolor"> ₱1100.00</h2><p>Per tray</p></b>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-1"></div>
+  <div class="col-lg-4 mt-5" class="cardheader">
+    <div class="card text-center">
+      <img src="img/Eat all you can/chapsui.jpg" class="card-img-top" alt="chapsui" height="300px" >
+      <div>
+        <b> <h6 class="display-6" >Chap Suey</h6></b>
+        <p> Is a stir-fried vegetable dish that is cooked with meats such as chicken and pork. Shrimp and seafood can also be added.</p>
+        <b> <h2 class="hcolor"> ₱700.00</h2><p>Per tray</p></b>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row"><div class="col-lg-1"></div>
+  <div class="col-lg-4 ms-5 mt-5">
+<div class="card text-center">
+  <img src="img/Eat all you can/squidroll.jpg" class="card-img-top" alt="calamares" height="300px" >
+  <div>
+    <b> <h6 class="display-6" >Calamares</h6></b>
+    <p> Is probably one of the easiest and quickest appetizers to prepare. </p>
+    <b> <h2 class="hcolor"> ₱900.00</h2><p>Per tray</p></b>
+  </div>
+</div>
+</div>
+<div class="col-lg-1"></div>
+<div class="col-lg-4 mt-5" class="cardheader">
+<div class="card text-center">
+  <img src="img/Eat all you can/porkkinilaw.jpg" class="card-img-top" alt="sinuglaw" height="300px" >
+  <div>
+    <b> <h6 class="display-6" >Sinuglaw</h6></b>
+    <p> Is a dish composed of grilled pork belly and fish ceviche. This can be considered as a main dish or an appetizer. </p>
+    <b> <h2 class="hcolor"> ₱1000.00</h2><p>Per tray</p></b>
+  </div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-lg-1"></div>
+  <div class="col-lg-4 ms-5 mt-5">
+<div class="card text-center">
+  <img src="img/Eat all you can/porkadobo.jpg" class="card-img-top" alt="porkadobo" height="300px" >
+  <div>
+    <b> <h6 class="display-6" >Pork Adobo</h6></b>
+    <p> Is a dish composed of fried pork add water, soy sauce, black peper, and bay leaf.</p>
+    <b> <h2 class="hcolor"> ₱1000.00</h2><p>Per tray</p></b>
+  </div>
+</div>
+</div>
+<div class="col-lg-1"></div>
+<div class="col-lg-4 mt-5" class="cardheader">
+<div class="card text-center">
+  <img src="img/Eat all you can/crabandoyster.jpg" class="card-img-top" alt="crabandoyster" height="300px" >
+  <div>
+    <b> <h6 class="display-6" >Crab and Oyster</h6></b>
+    <p> Is a simple yet savory Asian crab dish. Cooking this recipe requires the use of alimango or mud crabs.</p>
+    <b> <h2 class="hcolor"> ₱1300.00</h2><p>Per tray</p></b>
+  </div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-lg-1"></div>
+  <div class="col-lg-4 ms-5 mt-5">
+<div class="card text-center">
+  <img src="img/Eat all you can/chickenadobo.jpg" class="card-img-top" alt="chickenadobo" height="300px" >
+  <div>
+    <b> <h6 class="display-6" >Chicken Adobo</h6></b>
+    <p> Is a type of Filipino chicken stew. Chicken pieces are marinated in soy sauce and spices, pan-fried, and stewed until tender.</p>
+    <b> <h2 class="hcolor"> ₱1100.00</h2><p>Per tray</p></b>
+  </div>
+</div>
+</div>
+<div class="col-lg-1"></div>
+<div class="col-lg-4 mt-5" class="cardheader">
+<div class="card text-center">
+  <img src="img/Eat all you can/shrimp.jpg" class="card-img-top" alt="shrimp" height="300px" >
+  <div>
+    <b> <h6 class="display-6" >Shrimp</h6></b>
+    <p> Zesty, savory and perfectly filling, Lemon Garlic Shrimp Pasta is a fantastic mid-day dish option that's sure to please different tastes.</p>
+    <b> <h2 class="hcolor"> ₱1250.00</h2><p>Per tray</p></b>
+  </div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-lg-1"></div>
+  <div class="col-lg-4 ms-5 mt-5">
+<div class="card text-center">
+  <img src="img/Eat all you can/bistektagalog.jpg" class="card-img-top" alt="bistektagalog" height="300px" >
+  <div>
+    <b> <h6 class="display-6" >Bistek Tagalog</h6></b>
+    <p> Sirloin beef steak is a version of Filipino bistek tagalog that makes use of beef sirloin . The beef is cooked in soy sauce and lime.</p>
+    <b> <h2 class="hcolor"> ₱1600.00</h2><p>Per tray</p></b>
+  </div>
+</div>
+</div>
+<div class="col-lg-1"></div>
+<div class="col-lg-4 mt-5" class="cardheader">
+<div class="card text-center">
+  <img src="img/Eat all you can/chickenafritada.jpg" class="card-img-top" alt="chickenafritada" height="300px" >
+  <div>
+    <b> <h6 class="display-6" >Chicken Afritada</h6></b>
+    <p> afritadang manok is a type of Filipino chicken stew with tomato based sauced. It is a simple dish that can be cooked on regular days.</p>
+    <b> <h2 class="hcolor"> ₱1150.00</h2><p>Per tray</p></b>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    </body>
+    <footer>
+      <div class="row mt-5 pt-2 pb-2 bg-secondary">
+          <div class="row">
+          <div class="col-lg-1"></div>
+        <div class="col-lg-1"> <div class="text-center"> <a href=""> <h3 class="header">MENU</h3> </a>
+          <p class="header" ><a href="menu meals.html" class="istyle">Super 99</a></p>
+          <p class="header" ><a href="menu eat all you can.html" class="istyle">Eat all you can</a></p>
+        </div>
+      </div>
+        <div class="col-lg-2 text-center" >  <b>   <h3 class="header"><a href="gallery.html" class="istyle">GALLERY</a></h3>  </b> 
+        </div>
+        <!-- <div class="col-lg-2 text-center" >  <b>   <h3 class="header">DELIVERY</h3> </b> 
+        </div>-->
+        <div class="col-lg-2 text-center" >  <b>  <h3 class="header"><a href="catering.html" class="istyle">CATERING</a></h3> </b> 
+        </div>
+        <div class="col-lg-3 text-center" >  <b>  <h3 class="header"><a href="contact.html" class="istyle">CONTACT US</a></h3> </b> 
+          <p class="header" >Purok 2,Poblacion Valencia City, Bukidnon</p>
+          <div class="">
+              <p class="header">tangladcatering@gmail.com</p>
+              </div>
+              <h3 class="header" >Follow us.</h3>
+              <div class="mb-2">
+                <b> <a href="https://www.facebook.com/tangladvalenciacatering"><img src="img/Social media/facebook.png" alt="facebook page" id="socialmedia"> </a> </b>
+                  <b> <a href="">    <img src="img/Social media/instagram.png" alt="instagram page" id="socialmedia"> </a> </b>
+                    <b> <a href="">    <img src="img/Social media/twitter.png" alt="twitter page" id="socialmedia"></a> </b>
+        </div>
+      </div>
+      </div>
+      <hr>
+      <p class="text-white text-center pb-3">Tanglad Valencia and Bamboo Spring Resort © 2023.<p>
+      </div>
+    
+        </footer>
+</html>
